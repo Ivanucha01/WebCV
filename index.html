@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Ivana Flores | Web CV</title>
+		<link rel="stylesheet" href="estilos.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header>
+			<div class="textos">
+				<h1 class="titulos" id="inicio">Ivana Flores</h1>
+				<h3 class="subtitulo">Diseñadora Web</h3>
+				<a href="#zonacontacto" class="boton">Contáctame</a>
+			</div>
+			<div class="sesgoabajo"></div>
+		</header>
+		<main>
+		   <section class="acerca-de">
+				<div class="contenedor">
+					<h2 class="about">Sobre Mí</h2>
+					<h3 class="slogan">Donde no falta voluntad siempre hay un camino</h3>
+				<div class="col-100">
+				<div class="col-50">
+					<p class="parrafo">Mi nombre es Ivana Flores, y me dedico al diseño de páginas web. Mi objetivo principal al realizar éste Web CV fue el de demostrar mi habilidades en maquetación con HTML y CSS, pero de igual forma experimentar con cosas nuevas, p. ejm., la configuración de un formulario de contacto usando PHP, o la compilación de ejercicios anteriores a modo de portfolio para ensayar la carga de éstos a un repositorio GitHub. A través de ello, mi intención es dirigirme a los reclutadores o clientes potenciales que puedan estar observando ésta página.</p>
+					<p class="parafo">Puedo aportar a su proyecto mis ganas de aprender, que en definitiva suma muchísimo pues siempre hay nuevos desafíos en el quehacer diario. Puede saber más sobre mis referencias visitando mi perfil de <a href="https://www.linkedin.com/in/ivana-flores/" target="_blank" class="linkedin">LinkedIn</a>, pero por ahora lo invito a contactarme para conocerme y descubrir cómo es trabajar conmigo.</p>
+					<a href="#zonacontacto" class="boton">Contáctame</a>
+				</div>
+				<div class="col-50 foto">
+					<img src="img/foto.jpg" alt="">
+				</div>
+				</div>
+				</div>
+			</section>
+			<section class="galeria">
+				<div class="sesgoarriba"></div>
+				<div class="imagenes none">
+					<img src="img/1.jpg" alt="">
+				</div>
+				<div class="imagenes">
+					<img src="img/2.jpg" alt="">
+				</div>
+				<div class="imagenes">
+					<img src="img/3.jpeg" alt="">
+					<div class="encima">
+						<h2>Ivana Flores</h2>
+						<h2>Diseño Web</h2>
+					</div>
+				</div>
+				<div class="imagenes">
+					<img src="img/4.jpg" alt="">
+				</div>
+				<div class="imagenes none">
+					<img src="img/5.jpg" alt="">
+				</div>
+				<div class="sesgoabajo"></div>
+			</section>
+			<section class="miembros">
+				<div class="contenedor">
+					<h2 class="sobre-nosotros">Portfolio</h2>
+					<h3 class="slogan">Una mirada rápida a mi trabajo</h3>
+					<div class="cards">
+						<div class="modal" id="modal">
+						   <div class="contenido-modal">
+						   <img src="" alt="" class="img-modal" id="img-modal">
+						   </div>
+						   <div class="modal-btn" id="modal-btn">
+								X
+						   </div>
+						</div>
+						<div class="card">
+							<img src="img/trabajo1.png" alt="" class="img-galeria">
+							<h4>Suvieventos</h4>
+							<p><a href="https://ivanucha01.github.io/SuviEventos/" target="_blank" class="linkpgage">Ver aquí</a></p>
+						</div>
+						<div class="card">
+							<img src="img/trabajo2.png" alt="" class="img-galeria">
+							<h4>Musiquita Viajera</h4>
+							<p><a href="https://ivanucha01.github.io/Musiquita_Viajera/" target="_blank" class="linkpgage">Ver aquí</a></p>
+						</div>
+						<div class="card">
+							<img src="img/trabajo3.png" alt="" class="img-galeria">
+							<h4>Ivana Flores | Diseño Web</h4>
+							<p><a href="#" target="_blank" class="linkpgage">Ver aquí</a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="fondo">
+				<div class="sesgoarriba"></div>
+				<div class="contenedor">
+					<h2 class="titulo-habilidades">Mis Habilidades</h2>
+					<h3 class="subtitulo-habilidades">Conoce algunas de mis habilidades</h3>
+					<div class="habilidades">
+						<div class="habilidad"><img src="img/html.png" alt=""></div>
+						<div class="habilidad"><img src="img/css.png" alt=""></div>
+						<div class="habilidad"><img src="img/js.png" alt=""></div>
+					</div>  
+					<h3 class="subtitulo-habilidades especial">Descarga mi síntsis curricular aquí</h3>  
+				    <div class="contenedor-cv">
+                        <a href="pdf/CURRICULUM%20IVANA%20FLORES_ESPA%C3%91OL.pdf" target="_blank" class="linkcv"><h3>Español</h3></a>
+                        <a href="pdf/CURRICULUM%20IVANA%20FLORES_ENGLISH.pdf" target="_blank" class="linkcv"><h3>English</h3></a>
+                    </div>            
+				</div>
+				<div class="sesgobajo-unico"></div>
+			</section>
+		</main>
+		<footer>
+			<div class="contenedor">
+				<h2 class="titulo-footer" id="zonacontacto">Contáctame</h2>
+				<h3 class="subtitulo-footer">¡Lo apreciaría mucho!</h3>
+				<div class="footer">
+					<form action="send_email.php" method="post">
+						<input type="text" name="nombre_apellido" id="nombre_apellido" placeholder="Nombre y apellido">
+						<input type="email" name="email" id="email" placeholder="Email">
+						<textarea name="mensaje" id="" cols="30" rows="10" placeholder="Ingrese su mensaje..."></textarea>
+						<input type="submit" name="submit" value="Enviar">
+					</form>
+				</div>
+			</div>
+		</footer>
+		<a href="#" class="btnFlotante">
+			<i class="iconoBtn fas fa-arrow-up" href="#inicio"
+			></i>
+		</a>
+		<script src="js/modal.js"></script>
+	</body>
+</html>
